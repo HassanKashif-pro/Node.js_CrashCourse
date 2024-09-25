@@ -10,3 +10,10 @@ ____________________
 
 ## VIDEO 2 :
  In this video we learn about modules & require, Node Basics, How to Read, Delete and Access Files And Lastetly we learn about the Stream and Buffers.(Stream is basically the way of sending huge data little by little in packets called BUFFERS )
+______________
+
+## Video 3 :
+ * Clients & Servers
+ * IP addresses and domains
+ * Local Host and port number
+ * Learn How to start and initialize a Node server file
