@@ -24,3 +24,5 @@ _________________
  * Response Object
  * Returning Html Files
  * Basic Routing
+ * Status Codes(200, 300, 400, 500)
+ * Redirecting
