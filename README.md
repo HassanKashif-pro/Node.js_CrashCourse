@@ -31,3 +31,5 @@ _______________
 ## VIDEO 5 :
  * 3rd Party Pachages
  * NPM
+ * Packages.json File & Installing packages locally
+ * Dependencies
