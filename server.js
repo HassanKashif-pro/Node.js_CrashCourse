@@ -14,7 +14,7 @@ const server = http.createServer((res, req) => {
       path += "404.html";
       break;
   }
-
+  // Hey
   res.setHeader("Content-Type", "text/html");
 
   fs.readFile("./views/index.html", (err, data) => {

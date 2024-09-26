@@ -1,0 +1,23 @@
+{
+  "name": "node.js-crashcourse",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassanKashif-pro/Node.js_CrashCourse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HassanKashif-pro/Node.js_CrashCourse/issues"
+  },
+  "homepage": "https://github.com/HassanKashif-pro/Node.js_CrashCourse#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
