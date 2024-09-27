@@ -38,3 +38,5 @@ _________________
 ## VIDEO 6 : 
  * What is Express ? (about express package)
  * Setting up Express App.
+ * Routing HTML pages
+ * 404 and Redirect Page.
