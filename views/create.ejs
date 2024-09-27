@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Ninja</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        h1 {
+            color: purple;
+        }
+        nav a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: blue;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog Ninja</h1>
+        <p>A Net Ninja Site</p>
+        <nav>
+            <a href="/blogs">Blogs</a>
+            <a href="/about">About</a>
+            <a href="/blogs/create">New Blog</a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="/blogs/create" method="POST">
+            <label for="title">Blog title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="snippet">Blog snippet:</label>
+            <input type="text" id="snippet" name="snippet" required>
+
+            <label for="body">Blog body:</label>
+            <input type="text" id="body" name="body" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
