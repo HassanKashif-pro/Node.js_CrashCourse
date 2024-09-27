@@ -6,12 +6,15 @@ app.set("view engine", "ejs");
 
 app.listen(3000);
 app.get("/", (req, res) => {
-  res.send("./views/index.html");
+  res.render("Index");
 });
 app.get("/about", (req, res) => {
-  res.sendFile("./views/About.html");
+  res.render("About");
+});
+app.get("/blog/create", (req, res) => {
+  res.render("create");
 });
 
 app.use("/404", (req, res) => {
-  res.status().sendFile("./views/404.html");
+  res.status().render("404");
 });
