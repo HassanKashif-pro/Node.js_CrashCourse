@@ -40,3 +40,8 @@ _________________
  * Setting up Express App.
  * Routing HTML pages
  * 404 and Redirect Page.
+_________________
+
+## VIDEO 7 :
+ * What are View Engines
+ * EJS view engine
