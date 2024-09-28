@@ -45,3 +45,4 @@ _________________
 ## VIDEO 7 :
  * What are View Engines
  * EJS view engine
+ * Passing Data into views
