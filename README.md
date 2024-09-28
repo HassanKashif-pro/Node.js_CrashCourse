@@ -46,3 +46,4 @@ _________________
  * What are View Engines
  * EJS view engine
  * Passing Data into views
+ * Partials
