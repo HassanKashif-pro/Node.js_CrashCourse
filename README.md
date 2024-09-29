@@ -47,3 +47,8 @@ _________________
  * EJS view engine
  * Passing Data into views
  * Partials
+________________
+
+## VIDEO 8 :
+ * What is middleware ?
+ * using next()
