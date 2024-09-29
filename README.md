@@ -59,3 +59,5 @@ _____________
 ## VIDEO 9 :
  * What is Mongo DB ?
  * Using MongoDB atlas
+ * Getting and Saving Data
+ * Outputting Data in Views
