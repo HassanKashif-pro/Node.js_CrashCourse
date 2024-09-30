@@ -67,3 +67,4 @@ ______________
  * REquest types (GET, POST and DELETE)
  * POST requst
  * Route Parameters
+ * Delete Requests
