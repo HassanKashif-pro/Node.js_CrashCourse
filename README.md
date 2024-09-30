@@ -65,3 +65,5 @@ ______________
 
 ## VIDEO 10 :
  * REquest types (GET, POST and DELETE)
+ * POST requst
+ * Route Parameters
