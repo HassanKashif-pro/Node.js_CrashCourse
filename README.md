@@ -61,3 +61,7 @@ _____________
  * Using MongoDB atlas
  * Getting and Saving Data
  * Outputting Data in Views
+______________
+
+## VIDEO 10 :
+ * REquest types (GET, POST and DELETE)
