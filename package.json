@@ -18,9 +18,12 @@
   "homepage": "https://github.com/HassanKashif-pro/Node.js_CrashCourse#readme",
   "description": "",
   "dependencies": {
-    "ejs": "^3.1.10",
     "express": "^4.21.0",
     "mongoose": "^8.7.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "ejs": "^3.1.10"
   }
 }
