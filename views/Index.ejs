@@ -1,11 +1,22 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog APP</title>
-</head>
-<body>
-    <h1>Home</h1>
-</body>
+  <%- include('partials/header') %>
+
+  <body>
+    <%- include('partials/nav') %>
+    <div class="blogs content">
+      <h2>All Blogs</h2>
+      
+      <% if (blogs.length > 0) { %>
+        <% blogs.forEach(blog => { %>
+          <h3 class="title"><%= blog.title %></h3>
+          <p class="snippet"><%= blog.snippet %></p>
+        <% }) %>
+      <% } else { %>
+        <p>There are no blogs to display...</p>
+      <% } %>
+      
+    </div>
+
+    <%- include('partials/footer') %>
+  </body>
 </html>

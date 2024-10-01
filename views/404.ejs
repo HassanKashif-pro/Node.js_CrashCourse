@@ -1,11 +1,13 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog App | 404</title>
-</head>
+<%- include("./partials/head.ejs") %>
+
 <body>
-    <h1>404</h1>
+  <%- include("./partials/nav.ejs") %>
+
+  <div class="not-found content">
+    OOPS, page not found :)
+  </div>
+
+  <%- include("./partials/footer.ejs") %>
 </body>
 </html>
