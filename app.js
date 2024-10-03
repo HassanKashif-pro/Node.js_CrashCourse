@@ -1,11 +1,21 @@
 const express = require("express");
-
+const dotenv = require("dotenv");
+const { default: mongoose, Mongoose } = require("mongoose");
+dotenv.config();
 // express app
 const app = express();
 
 // register view engine
 app.set("view engine", "ejs");
 app.set("views", "views");
+
+mongoose
+  .connect(process.env.MONGO_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log("Connected to MongoDB"))
+  .catch((err) => console.log("MongoDB connection error:", err));
 
 // Middleware for serving static files
 app.use(express.static("public"));
