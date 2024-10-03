@@ -18,6 +18,7 @@
   "homepage": "https://github.com/HassanKashif-pro/Node.js_CrashCourse#readme",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "mongoose": "^8.7.0",
     "morgan": "^1.10.0",
